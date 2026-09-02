@@ -11,5 +11,4 @@ Entidad de relación hacia las diferentes plantillas para este proyecto.
 
 ### Etiquetas
 
-### Etiquetas
 ### Date

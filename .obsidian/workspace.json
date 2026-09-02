@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "006d15e6433bd4da",
+        "id": "2332886226bad848",
         "type": "tabs",
         "children": [
           {
-            "id": "de13589a76538eeb",
+            "id": "f14e0b49f71a7df3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,35 +192,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d77ce9d392c39aa7",
+  "active": "f14e0b49f71a7df3",
   "lastOpenFiles": [
-    "2026-09-01.md",
-    "Tickets.md",
-    "Add infoi.md",
-    "Referencia/Plantillas/!Plantillas.md",
+    "Conceptos/Aws/Regiones.md",
+    "Conceptos/!Conceptos.md",
+    "Conceptos/Aws/Zona local (ubicación física especifica).md",
+    "Conceptos/Aws/Zona de disponibilidad.md",
+    "Servicios/Aws/Well-Architected.md",
+    "Conceptos/Aws",
+    "Servicios/Aws/Aws Console.md",
     "Referencia/Plantillas/Plantilla servicio.md",
+    "Referencia/Plantillas/!Plantillas.md",
+    "Referencia/Plantillas/Entidad relacional.md",
+    "Referencia/Plantillas/General.md",
     "Plataformas/Sap/!Sap.md",
     "Plataformas/!Plataformas.md",
     "Plataformas/Aws/!Aws.md",
-    "Conceptos/Servicios/Aws/Well-Architected.md",
-    "Conceptos/Servicios/Aws/Aws Console.md",
-    "Conceptos/Servicios/!Servicios.md",
-    "Conceptos/Servicios/Sap",
-    "Referencia/Plantillas/General.md",
+    "Servicios/!Servicios.md",
+    "Servicios/Sap",
     "Plataformas",
-    "Conceptos/Servicios/Aws",
+    "Servicios/Aws",
     "Plataformas/Sap",
-    "Referencia/Plantillas/Entidad relacional.md",
     "Sap BTP",
     "Plataformas/Aws",
-    "Conceptos/Servicios/!Servicios",
+    "Servicios/!Servicios",
     "Sin título 1.md",
     "Sin título.canvas",
     "copilot/skills/obsidian-cli/SKILL.md",
     "copilot/skills/obsidian-cli/LICENSE",
     "copilot/skills/obsidian-cli",
     "copilot/skills/json-canvas/SKILL.md",
-    "copilot/skills/json-canvas/LICENSE",
     "copilot/skills/json-canvas/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/SKILL.md",
     "copilot/skills/obsidian-bases/references/EXAMPLES.md",
@@ -229,7 +230,6 @@
     "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
     "copilot/skills/obsidian-markdown/references/EMBEDS.md",
     "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/symposium-publish/SKILL.md",
-    "copilot/skills/copilot-fetch-x/SKILL.md"
+    "copilot/skills/symposium-publish/SKILL.md"
   ]
 }

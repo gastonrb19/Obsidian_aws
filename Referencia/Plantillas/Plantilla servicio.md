@@ -12,4 +12,4 @@
 |                 | Plataforma que utiliza el servicio:w |
 
 ### Entidades asociadas
-[[!Servicios]]
+- [[!Servicios]]
