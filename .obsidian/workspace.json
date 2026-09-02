@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0842b45f396fb107",
+        "id": "006d15e6433bd4da",
         "type": "tabs",
         "children": [
           {
-            "id": "73ab4b0f65d65031",
+            "id": "de13589a76538eeb",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -192,8 +192,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "73ab4b0f65d65031",
+  "active": "d77ce9d392c39aa7",
   "lastOpenFiles": [
+    "2026-09-01.md",
+    "Tickets.md",
+    "Add infoi.md",
     "Referencia/Plantillas/!Plantillas.md",
     "Referencia/Plantillas/Plantilla servicio.md",
     "Plataformas/Sap/!Sap.md",
@@ -227,9 +230,6 @@
     "copilot/skills/obsidian-markdown/references/EMBEDS.md",
     "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
     "copilot/skills/symposium-publish/SKILL.md",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
-    "copilot/skills/copilot-youtube-transcript/SKILL.md",
-    "copilot/skills/copilot-read-pdf/SKILL.md",
-    "copilot/skills/copilot-web-fetch/SKILL.md"
+    "copilot/skills/copilot-fetch-x/SKILL.md"
   ]
 }
