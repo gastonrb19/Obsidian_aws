@@ -14,3 +14,5 @@ Esta puede contener varias [[Zona de disponibilidad]].
 	- Latencia
 	- Disponibilidad del servicio
 	- Costo
+### Relaciones
+- [[!Conceptos]]

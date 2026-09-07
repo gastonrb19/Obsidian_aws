@@ -4,20 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "2332886226bad848",
+        "id": "209dd5bf23fd7d73",
         "type": "tabs",
         "children": [
           {
-            "id": "f14e0b49f71a7df3",
+            "id": "5401797b2c5b571d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Conceptos/Aws/Modelo de responsabilidad compartida.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Modelo de responsabilidad compartida"
+            }
+          },
+          {
+            "id": "1d1bfac109538b32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceptos/Aws/Zona local (ubicación física especifica).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zona local (ubicación física especifica)"
+            }
+          },
+          {
+            "id": "c0db1b0b7cdcadd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceptos/!Conceptos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "!Conceptos"
+            }
+          },
+          {
+            "id": "d0c300b0e6c7e214",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,15 +236,26 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "f14e0b49f71a7df3",
+  "active": "c0db1b0b7cdcadd1",
   "lastOpenFiles": [
+    "imagenes/Captura de pantalla 2026-09-06 a las 10.31.27 p. m..png",
+    "Conceptos/Sap",
+    "Servicios/Aws/Elastic compute cloud (EC2).md",
+    "imagenes",
+    "Conceptos/Aws/Computación como servicio (compute as a service).md",
+    "Conceptos/Aws/Modelo de responsabilidad compartida.md",
+    "Conceptos/Aws/Red AWS.md",
     "Conceptos/Aws/Regiones.md",
-    "Conceptos/!Conceptos.md",
-    "Conceptos/Aws/Zona local (ubicación física especifica).md",
     "Conceptos/Aws/Zona de disponibilidad.md",
+    "Conceptos/Aws/Zona local (ubicación física especifica).md",
+    "Servicios/Aws/Amazon Virtual Private Cloud.md",
+    "Conceptos/!Conceptos.md",
     "Servicios/Aws/Well-Architected.md",
-    "Conceptos/Aws",
+    "imagenes/Captura de pantalla 2026-09-06 a las 10.39.27 p. m..png",
+    "imagenes/Captura de pantalla 2026-09-06 a las 10.39.13 p. m..png",
+    "imagenes/Captura de pantalla 2026-09-06 a las 10.34.43 p. m..png",
     "Servicios/Aws/Aws Console.md",
+    "Conceptos/Aws",
     "Referencia/Plantillas/Plantilla servicio.md",
     "Referencia/Plantillas/!Plantillas.md",
     "Referencia/Plantillas/Entidad relacional.md",
@@ -219,17 +274,9 @@
     "Sin título 1.md",
     "Sin título.canvas",
     "copilot/skills/obsidian-cli/SKILL.md",
-    "copilot/skills/obsidian-cli/LICENSE",
-    "copilot/skills/obsidian-cli",
     "copilot/skills/json-canvas/SKILL.md",
     "copilot/skills/json-canvas/references/EXAMPLES.md",
     "copilot/skills/obsidian-bases/SKILL.md",
-    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
-    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "copilot/skills/obsidian-markdown/SKILL.md",
-    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
-    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
-    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/symposium-publish/SKILL.md"
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md"
   ]
 }

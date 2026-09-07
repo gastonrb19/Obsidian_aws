@@ -7,6 +7,7 @@ Entidad relacional de los diferentes conceptos disponibles.
 | [[Regiones]]                                 | Disponibilidad de los servicios en concepto regional                                     |
 | [[Zona de disponibilidad]]                   | Centro de datos dentro de una región (puede haber más de uno)                            |
 | [[Zona local (ubicación física especifica)]] | Ubicación periferica que permite acercar el servicio y bajar la latencia a los usuarios. |
+| [[Red AWS]]                                  | Información asociada a la composición de una red en AWS.                                 |
 
 ### Relaciones SAP
 

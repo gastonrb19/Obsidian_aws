@@ -6,3 +6,5 @@ Son los diferentes centros de datos disponibles dentro de una región.
 
 ### Plataforma asociada
 - [[!Aws]]
+### Relaciones
+- [[!Conceptos]]
