@@ -1,9 +1,7 @@
 ### Descripción
 
 ### Relaciones
-- [[!Aws]]
-- [[!Sap]]
 ### Etiquetas
-
+#SAP #AWS
 
 ### Date

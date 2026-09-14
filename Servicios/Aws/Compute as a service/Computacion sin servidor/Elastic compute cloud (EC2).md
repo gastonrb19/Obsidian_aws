@@ -92,12 +92,6 @@ Al realizar el lanzamiento de una instancia se puede ejecutar un script en este 
 ![[Captura de pantalla 2026-09-08 a las 11.12.57 p. m..png]]
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
 ### Servicios que utilizan este servicio
 
 | Nombre                                       | Descripción de la relación                                                                                                                                                                                                                                                                                                                                                          |
@@ -107,5 +101,7 @@ Al realizar el lanzamiento de una instancia se puede ejecutar un script en este 
 |                                              |                                                                                                                                                                                                                                                                                                                                                                                     |
 
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Computacion sin servidor]]
 - [[Computación como servicio (compute as a service)]]
+### Etiquetas
+#AWS

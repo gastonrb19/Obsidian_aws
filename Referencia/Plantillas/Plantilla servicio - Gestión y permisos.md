@@ -11,3 +11,5 @@
 |          |                            |
 
 ### Entidades asociadas
+- [[!Gestión y permisos]]
+### Etiquetas

@@ -16,12 +16,7 @@ FSx para Lustre ofrece los niveles más altos de rendimiento (hasta más de 1 T
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Almacenamiento]]
+### Etiquetas
+#AWS

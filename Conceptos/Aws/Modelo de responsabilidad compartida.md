@@ -4,8 +4,7 @@ Por una parte esta el usuario que utilizará los diferentes servicios de AWS. Es
 
 Por el lado de AWS, ellos se deben hacer cargo de la seguridad física de sus servidores, de el mantenimiento de estos, los parches de seguridad a nivel sistema operativo, redes y semejantes.
 ### Etiquetas
-
+#AWS
 ### Date
 ### Relaciones
 - [[!Conceptos]]
-- [[!Aws]]

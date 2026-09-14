@@ -6,13 +6,9 @@ Las VPC se implementan en una de las regiones de AWS y puede alojar recursos de 
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación         |
-| --------------- | ---------------------------------- |
-| [[!Aws]]        | Plataforma que provee el servicio  |
-|                 | Plataforma que utiliza el servicio |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Network]]
 - [[Red AWS]]
+
+### Etiquetas
+#AWS

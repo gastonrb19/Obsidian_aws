@@ -78,9 +78,8 @@ Un grupo de seguridad funciona como firewalls para las instancias de EC2 asociad
 | Es un firewall con estado                                                                                                                                         | Es un firewall sin estado                                              |
 | Se debe asignar manualmente a las instancias                                                                                                                      | Se aplica automáticamente cuando las instancias se agregan a la subred |
 ### Etiquetas
-#Cloud #Network
+#AWS #Cloud #Network
 ### Date
 
 ### Relaciones
 - [[!Conceptos]]
-- [[!Aws]]

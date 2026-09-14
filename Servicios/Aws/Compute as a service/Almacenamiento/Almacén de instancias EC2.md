@@ -6,12 +6,5 @@ El almacén de instancias es ideal si aloja aplicaciones que replican datos en o
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-|                 | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Almacenamiento]]

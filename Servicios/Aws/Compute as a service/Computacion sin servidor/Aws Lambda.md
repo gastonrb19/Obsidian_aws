@@ -4,12 +4,7 @@ Lambda ejecuta el código en una infraestructura de computación de alta disponi
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Computacion sin servidor]]
+### Etiquetas
+#AWS

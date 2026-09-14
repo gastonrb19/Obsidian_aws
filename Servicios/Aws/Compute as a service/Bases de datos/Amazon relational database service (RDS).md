@@ -18,12 +18,7 @@ Debajo de la instancia de base de datos hay una instancia de EC2. Sin embargo, e
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Bases de datos]]
+### Etiquetas
+#AWS

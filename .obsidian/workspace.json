@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "99771b7771847f7a",
+        "id": "3f1d1ff5fbcd0461",
         "type": "tabs",
         "children": [
           {
-            "id": "5f90a652708eb7ea",
+            "id": "12d8586ba7d2e72a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Servicios/Aws/Compute as a service/Bases de datos/Amazon DynamoDB.md",
+                "file": "Referencia/Plantillas/Plantilla servicio - Gestión y permisos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon DynamoDB"
+              "title": "Plantilla servicio - Gestión y permisos"
+            }
+          },
+          {
+            "id": "aa8e79473f106e20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Servicios/Aws/Compute as a service/Gestión y permisos/Amazon IAM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon IAM"
             }
           }
         ]
@@ -55,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "s3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,54 +211,53 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "5f90a652708eb7ea",
+  "active": "12d8586ba7d2e72a",
   "lastOpenFiles": [
-    "Servicios/Aws/Compute as a service/Bases de datos/Amazon Timestream.md",
-    "Servicios/Aws/Compute as a service/Bases de datos/Amazon Neptune.md",
-    "Servicios/Aws/Compute as a service/Bases de datos/Amazon Keyspaces (para Apache Cassandra).md",
-    "Servicios/Aws/Compute as a service/Bases de datos/Amazon Document DB (Mongo compatible).md",
-    "Servicios/Aws/Compute as a service/Bases de datos/Amazon MemoryDB para Redis.md",
-    "Servicios/Aws/Compute as a service/Bases de datos/Amazon Elastic Cache.md",
-    "Servicios/Aws/Compute as a service/Bases de datos/Amazon DynamoDB.md",
-    "Servicios/Aws/Compute as a service/Elastic compute cloud (EC2).md",
-    "Servicios/Aws/Compute as a service/Bases de datos/Amazon relational database service (RDS).md",
-    "Referencia/Plantillas/Plantilla servicio.md",
-    "Servicios/Aws/Compute as a service/Administración de contenedores (Amazon ECS).md",
-    "Servicios/Aws/Compute as a service/Computacion sin servidor/Amazon Fargate.md",
+    "Servicios/Aws/Compute as a service/Gestión y permisos/!Gestión y permisos.md",
+    "Servicios/Aws/Compute as a service/Gestión y permisos/Amazon IAM.md",
     "Servicios/Aws/Compute as a service/Almacenamiento/AWS S3 (Simple Storage Service).md",
-    "Servicios/Aws/Compute as a service/Bases de datos",
+    "Servicios/Aws/Compute as a service/Almacenamiento/!Almacenamiento.md",
+    "imagenes/s3-service.png",
+    "Pasted image 20260913235312.png",
+    "Captura de pantalla 2026-09-13 a las 11.52.36 p. m..png",
+    "Servicios/Aws/Compute as a service/Almacenamiento/Amazon Redshift Spectrum.md",
+    "Servicios/Aws/Compute as a service/Almacenamiento/Amazon Athena.md",
     "Servicios/Aws/Compute as a service/Almacenamiento/Amazon FSx.md",
-    "Servicios/Aws/Compute as a service/Almacenamiento/AWS EFS (Elastic File System).md",
+    "Servicios/Aws/Compute as a service/Almacenamiento/Almacén de instancias EC2.md",
+    "Plataformas/!Plataformas.md",
+    "Plataformas/Sap/!Sap.md",
+    "Plataformas/Aws/!Aws.md",
+    "Referencia/Plantillas/Plantilla servicio - Network.md",
+    "Referencia/Plantillas/Plantilla servicio - Gestión y permisos.md",
+    "Referencia/Plantillas/Plantilla servicio - Computacion sin servidor.md",
+    "Referencia/Plantillas/Plantilla servicio - Bases de datos.md",
+    "Referencia/Plantillas/Plantilla servicio - Ayuda.md",
+    "Referencia/Plantillas/Plantilla servicio - Almacenamiento.md",
+    "Referencia/Plantillas/Plantilla servicio.md",
+    "Servicios/!Servicios.md",
+    "Servicios/Aws/Compute as a service/Ayuda/Well-Architected.md",
+    "Servicios/Aws/Compute as a service/Network/!Network.md",
+    "Servicios/Aws/Compute as a service/Computacion sin servidor/!Computacion sin servidor.md",
+    "Servicios/Aws/Compute as a service/Ayuda/!Ayuda.md",
+    "Servicios/Aws/Compute as a service/Ayuda",
+    "Servicios/Aws/Compute as a service/Gestión y permisos",
+    "Servicios/Aws/Compute as a service/Gestión y permisos/Aws Console.md",
+    "Servicios/Aws/Compute as a service/Network/Amazon Virtual Private Cloud.md",
+    "Servicios/Aws/Compute as a service/Network",
+    "Servicios/Aws/Compute as a service/Bases de datos",
     "Captura de pantalla 2026-09-10 a las 10.48.43 p. m..png",
-    "Servicios/Aws/Compute as a service/Almacenamiento/AWS EBS (Elastic Block Store).md",
     "Captura de pantalla 2026-09-10 a las 10.25.37 p. m..png",
     "Captura de pantalla 2026-09-10 a las 10.23.33 p. m..png",
-    "Servicios/Aws/Compute as a service/Almacenamiento/Almacén de instancias EC2.md",
     "Captura de pantalla 2026-09-10 a las 9.47.55 p. m..png",
     "Servicios/Aws/Compute as a service/Almacenamiento",
     "imagenes/Captura de pantalla 2026-09-08 a las 11.32.12 p. m..png",
     "imagenes/Captura de pantalla 2026-09-08 a las 11.26.27 p. m..png",
     "imagenes/Captura de pantalla 2026-09-08 a las 11.23.14 p. m..png",
-    "imagenes/Captura de pantalla 2026-09-08 a las 11.12.57 p. m..png",
-    "imagenes/Captura de pantalla 2026-09-08 a las 10.59.15 p. m..png",
-    "Servicios/Aws/Compute as a service/Amazon Compute Optimizer.md",
-    "Conceptos/Aws/Red AWS.md",
-    "Servicios/Aws/Compute as a service/Amazon EKS.md",
     "Servicios/Aws/Compute as a service/Computacion sin servidor",
     "Servicios/Aws/Compute as a service",
-    "Servicios/Aws/Compute as a service/Computacion sin servidor/Aws Lambda.md",
-    "Captura de pantalla 2026-09-08 a las 11.32.12 p. m..png",
-    "Servicios/Aws/Amazon Virtual Private Cloud.md",
-    "Conceptos/Aws/Zona local (ubicación física especifica).md",
-    "Conceptos/Aws/Computación como servicio (compute as a service).md",
-    "Conceptos/!Conceptos.md",
     "Conceptos/Sap",
     "imagenes",
-    "Conceptos/Aws/Modelo de responsabilidad compartida.md",
     "Conceptos/Aws",
-    "Servicios/Sap",
-    "Plataformas",
-    "Servicios/Aws",
     "Sin título.canvas"
   ]
 }

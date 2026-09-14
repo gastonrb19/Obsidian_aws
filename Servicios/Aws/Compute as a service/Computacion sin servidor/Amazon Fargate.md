@@ -5,12 +5,7 @@ AWS Fargate es un motor de computación sin servidor diseñado para contenedores
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Computacion sin servidor]]
+### Etiquetas
+#AWS

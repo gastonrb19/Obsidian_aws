@@ -15,12 +15,7 @@ Si elige tener más control ejecutando y administrando sus contenedores en un cl
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Computacion sin servidor]]
+### Etiquetas
+#AWS

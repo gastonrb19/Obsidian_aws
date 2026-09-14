@@ -29,16 +29,17 @@ Las clases de almacenamiento de Amazon S3 le permiten cambiar el nivel de almace
 |**S3 Glacier Instant Retrieval**|Utilice S3 Glacier Instant Retrieval para archivar datos de acceso muy poco frecuente y que requieren una recuperación en milisegundos. Los datos que se almacenan en esta clase de almacenamiento implican un ahorro de costos de hasta un 68 % en comparación con la clase de almacenamiento S3 Standard-IA, con la misma latencia y rendimiento.|
 |**S3 Glacier Flexible Retrieval**|S3 Glacier Flexible Retrieval brinda almacenamiento de bajo costo para los datos archivados a los que se accede una o dos veces al año. Con S3 Glacier Flexible Retrieval, se puede acceder a sus datos en tan solo 1 a 5 minutos mediante una recuperación acelerada. También puede solicitar recuperaciones masivas gratuitas en un máximo de 5 a 12 horas. Es una solución ideal para las copias de seguridad, la recuperación de desastres, las necesidades de almacenamiento de datos fuera de las instalaciones y para casos en los que algunos datos deben recuperarse en minutos.|
 |**S3 Glacier Deep Archive**|S3 Glacier Deep Archive es la clase de almacenamiento de menor costo de Amazon S3. Admite la retención a largo plazo y la preservación digital de datos a los que se puede acceder una o dos veces al año. Los datos que se almacenan en la clase de almacenamiento S3 Glacier Deep Archive tienen un tiempo de recuperación predeterminado de 12 horas. Está diseñado para clientes que retienen conjuntos de datos por un periodo de 7 a 10 años o más, a fin de cumplir con los requisitos de conformidad normativa. Los ejemplos incluyen aquellos en industrias con alta regulación, como los servicios financieros, la sanidad y los sectores públicos.|
+### Features S3
+Versionamiento, uso por tipo de bucket, query, limitación de tiempo para ingreso.
+![[s3-service.png]]
+### Permisos S3
+Permisos de s3 buckets, mediante ACL, [[Amazon IAM]] y access management de S3.
+![[Pasted image 20260913235312.png]]
 ### Costo asociado
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Almacenamiento]]
+### Etiquetas
+#AWS

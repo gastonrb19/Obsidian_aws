@@ -11,3 +11,5 @@
 |          |                            |
 
 ### Entidades asociadas
+- [[!Almacenamiento]]
+### Etiquetas

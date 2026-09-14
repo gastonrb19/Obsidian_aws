@@ -4,12 +4,6 @@ Timestream es un servicio de base de datos de serie temporal rápido, escalable 
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
 ### Servicios que utilizan este servicio
 
 | Servicio | Descripción de la relación |
@@ -17,4 +11,6 @@ Timestream es un servicio de base de datos de serie temporal rápido, escalable 
 |          |                            |
 
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Bases de datos]]
+### Etiquetas
+#AWS

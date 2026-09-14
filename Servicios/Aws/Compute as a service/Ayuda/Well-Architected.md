@@ -6,13 +6,8 @@ Este marco denota información relevante sobre un servicio bien diseñado.
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación         |
-| --------------- | ---------------------------------- |
-| [[!Aws]]        | Plataforma que provee el servicio. |
 ### Entidades asociadas
-[[!Servicios]]
+[[!Ayuda]]
 ___
 #### Los seis pilares
 - Excelencia operativa
@@ -31,3 +26,5 @@ ___
 - Sostenibilidad
 	- La capacidad de mejorar continuamente los impactos de sostenibilidad al reducir el consumo de energía y aumentar la eficiencia en todos los componentes de una carga de trabajo.
 	 Maximice los beneficios de los recursos aprovisionados y minimice el total de recursos necesarios.
+### Etiquetas
+#AWS

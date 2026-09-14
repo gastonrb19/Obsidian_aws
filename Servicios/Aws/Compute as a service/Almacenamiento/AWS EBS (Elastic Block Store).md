@@ -37,12 +37,7 @@ Estas instantáneas de EBS son copias de seguridad progresivas que solo guardan 
 
 ### Sub área
 
-### Plataforma
-
-| Nombre/Relación | Descripción de la relación           |
-| --------------- | ------------------------------------ |
-| [[!Aws]]        | Plataforma que provee el servicio    |
-|                 | Plataforma que utiliza el servicio:w |
-
 ### Entidades asociadas
-- [[!Servicios]]
+- [[!Almacenamiento]]
+### Etiquetas
+#AWS
