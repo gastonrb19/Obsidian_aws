@@ -58,6 +58,9 @@ Las ACL de la red **no tienen estado**, lo que significa que las respuestas al 
 ![[Captura de pantalla 2026-09-06 a las 10.31.27 p. m..png]]
 
 ### Grupos de seguridad
+##### Notas grupos de seguridad
+- Solo pueden contener reglas de "Allow".
+- Pueden ser referenciados por grupos de seguridad o por ips
 Los grupos de seguridad funcionan como un firewall virtual de la instancia para controlar el tráfico entrante y saliente. Los grupos de seguridad actúan en el nivel de la interfaz de red, no en el nivel de la subred, y solo admiten reglas de **permiso**.
 
 Un grupo de seguridad permite el tráfico en función de un protocolo IP, un puerto o una dirección IP, y utiliza reglas con estado. El tráfico se puede restringir con cualquier protocolo IP, puerto de servicio y dirección IP de origen o destino (dirección IP individual o bloque de CIDR).
@@ -77,6 +80,13 @@ Un grupo de seguridad funciona como firewalls para las instancias de EC2 asociad
 | Solo admite reglas de permiso                                                                                                                                     | Admite las reglas de permiso y denegación                              |
 | Es un firewall con estado                                                                                                                                         | Es un firewall sin estado                                              |
 | Se debe asignar manualmente a las instancias                                                                                                                      | Se aplica automáticamente cuando las instancias se agregan a la subred |
+#### Prices associated
+
+| NAME                    | DESCRIPTION     |
+| ----------------------- | --------------- |
+| public Ipv4 with no use | $0.005 per hour |
+| public ipv4 with use    | $0.005 per hour |
+
 ### Etiquetas
 #AWS #Cloud #Network
 ### Date

@@ -13,12 +13,120 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Referencia/Plantillas/Plantilla servicio - Gestión y permisos.md",
+                "file": "Servicios/Aws/Compute as a service/Computacion sin servidor/Elastic compute cloud (EC2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plantilla servicio - Gestión y permisos"
+              "title": "Elastic compute cloud (EC2)"
+            }
+          },
+          {
+            "id": "db0f47627185edb5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          },
+          {
+            "id": "a85d36fb69c8f46d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Servicios/Aws/Compute as a service/Almacenamiento/AWS EBS (Elastic Block Store).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS EBS (Elastic Block Store)"
+            }
+          },
+          {
+            "id": "73d5e2148ede21ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Servicios/Aws/Compute as a service/Gestión y permisos/Amazon IAM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon IAM"
+            }
+          },
+          {
+            "id": "3ce281f3f82b7e21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Servicios/Aws/Compute as a service/Computacion sin servidor/Elastic compute cloud (EC2).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Elastic compute cloud (EC2)"
+            }
+          },
+          {
+            "id": "bed42808e16af863",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Servicios/Aws/Compute as a service/Gestión y permisos/Amazon IAM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon IAM"
+            }
+          },
+          {
+            "id": "30a0054ca876047f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Servicios/Aws/Compute as a service/Gestión y permisos/Aws CLI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aws CLI"
+            }
+          },
+          {
+            "id": "45fddc8e6ded2367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Servicios/Aws/Compute as a service/Computacion sin servidor/Amazon CloudFront Global Content Delivery Network (CDN).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon CloudFront Global Content Delivery Network (CDN)"
+            }
+          },
+          {
+            "id": "9f5494db3bec344b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aws Cloud Shell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aws Cloud Shell"
             }
           },
           {
@@ -35,7 +143,8 @@
               "title": "Amazon IAM"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +178,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s3",
+                "query": "ec2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +202,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,19 +290,9 @@
               "icon": "lucide-list",
               "title": "Esquema"
             }
-          },
-          {
-            "id": "c874bd56b7570153",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -208,56 +308,57 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": true,
-      "obsidian-kanban:Create new board": false
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "12d8586ba7d2e72a",
+  "active": "db0f47627185edb5",
   "lastOpenFiles": [
-    "Servicios/Aws/Compute as a service/Gestión y permisos/!Gestión y permisos.md",
-    "Servicios/Aws/Compute as a service/Gestión y permisos/Amazon IAM.md",
-    "Servicios/Aws/Compute as a service/Almacenamiento/AWS S3 (Simple Storage Service).md",
+    "Servicios/Aws/Compute as a service/Computacion sin servidor/Elastic compute cloud (EC2).md",
     "Servicios/Aws/Compute as a service/Almacenamiento/!Almacenamiento.md",
-    "imagenes/s3-service.png",
-    "Pasted image 20260913235312.png",
-    "Captura de pantalla 2026-09-13 a las 11.52.36 p. m..png",
+    "Conceptos/Aws/Red AWS.md",
+    "Servicios/Aws/Compute as a service/Computacion sin servidor/!Computacion sin servidor.md",
+    "Servicios/Aws/Compute as a service/Almacenamiento/AWS EBS (Elastic Block Store).md",
+    "Servicios/Aws/Compute as a service/Gestión y permisos/Amazon IAM.md",
+    "Conceptos/Aws/Grupos de seguridad.md",
+    "Conceptos/Aws/Regiones.md",
+    "Conceptos/Aws/Modelo de responsabilidad compartida.md",
+    "Conceptos/Aws/Computación como servicio (compute as a service).md",
+    "Aws Billing and cost Management.md",
+    "Aws Cloud Shell.md",
+    "Servicios/Aws/Compute as a service/Computacion sin servidor/Amazon CloudFront Global Content Delivery Network (CDN).md",
+    "Servicios/Aws/Compute as a service/Gestión y permisos/Aws CLI.md",
+    "Passwd.md",
+    "Servicios/Aws/Compute as a service/Gestión y permisos/Aws SDK.md",
+    "Servicios/Aws/Compute as a service/Gestión y permisos/!Gestión y permisos.md",
+    "imagenes/Capturas/s3-service.png",
+    "imagenes/Capturas/Pasted image 20260913235312.png",
+    "imagenes/Capturas/Captura de pantalla 2026-09-14 a las 8.52.45 a. m..png",
+    "imagenes/Capturas/Captura de pantalla 2026-09-14 a las 8.48.32 a. m..png",
+    "imagenes/Capturas/Captura de pantalla 2026-09-14 a las 8.45.04 a. m..png",
+    "imagenes/Capturas/Captura de pantalla 2026-09-14 a las 8.35.28 a. m..png",
+    "imagenes/Capturas/Captura de pantalla 2026-09-10 a las 9.47.55 p. m..png",
+    "imagenes/Capturas/Captura de pantalla 2026-09-10 a las 10.48.43 p. m..png",
+    "imagenes/Capturas/Captura de pantalla 2026-09-10 a las 10.25.37 p. m..png",
+    "imagenes/Capturas/Captura de pantalla 2026-09-10 a las 10.23.33 p. m..png",
+    "imagenes/Capturas",
+    "imagenes/Bosquejos",
+    "Servicios/Aws/Compute as a service/Ayuda/Aws Trusted Advisor.md",
+    "Servicios/Aws/Compute as a service/Network/Amazon Route 53 DNS Service.md",
+    "Servicios/Aws/Compute as a service/Network/Aws Elastic Load Balancing.md",
+    "Servicios/Aws/Compute as a service/Almacenamiento/Almacén de instancias EC2.md",
+    "Referencia/Plantillas/Plantilla servicio - Gestión y permisos.md",
+    "Servicios/Aws/Compute as a service/Almacenamiento/AWS S3 (Simple Storage Service).md",
     "Servicios/Aws/Compute as a service/Almacenamiento/Amazon Redshift Spectrum.md",
     "Servicios/Aws/Compute as a service/Almacenamiento/Amazon Athena.md",
     "Servicios/Aws/Compute as a service/Almacenamiento/Amazon FSx.md",
-    "Servicios/Aws/Compute as a service/Almacenamiento/Almacén de instancias EC2.md",
-    "Plataformas/!Plataformas.md",
-    "Plataformas/Sap/!Sap.md",
-    "Plataformas/Aws/!Aws.md",
-    "Referencia/Plantillas/Plantilla servicio - Network.md",
-    "Referencia/Plantillas/Plantilla servicio - Gestión y permisos.md",
-    "Referencia/Plantillas/Plantilla servicio - Computacion sin servidor.md",
-    "Referencia/Plantillas/Plantilla servicio - Bases de datos.md",
-    "Referencia/Plantillas/Plantilla servicio - Ayuda.md",
-    "Referencia/Plantillas/Plantilla servicio - Almacenamiento.md",
-    "Referencia/Plantillas/Plantilla servicio.md",
-    "Servicios/!Servicios.md",
-    "Servicios/Aws/Compute as a service/Ayuda/Well-Architected.md",
-    "Servicios/Aws/Compute as a service/Network/!Network.md",
-    "Servicios/Aws/Compute as a service/Computacion sin servidor/!Computacion sin servidor.md",
-    "Servicios/Aws/Compute as a service/Ayuda/!Ayuda.md",
     "Servicios/Aws/Compute as a service/Ayuda",
     "Servicios/Aws/Compute as a service/Gestión y permisos",
-    "Servicios/Aws/Compute as a service/Gestión y permisos/Aws Console.md",
-    "Servicios/Aws/Compute as a service/Network/Amazon Virtual Private Cloud.md",
     "Servicios/Aws/Compute as a service/Network",
     "Servicios/Aws/Compute as a service/Bases de datos",
-    "Captura de pantalla 2026-09-10 a las 10.48.43 p. m..png",
-    "Captura de pantalla 2026-09-10 a las 10.25.37 p. m..png",
-    "Captura de pantalla 2026-09-10 a las 10.23.33 p. m..png",
-    "Captura de pantalla 2026-09-10 a las 9.47.55 p. m..png",
     "Servicios/Aws/Compute as a service/Almacenamiento",
-    "imagenes/Captura de pantalla 2026-09-08 a las 11.32.12 p. m..png",
-    "imagenes/Captura de pantalla 2026-09-08 a las 11.26.27 p. m..png",
-    "imagenes/Captura de pantalla 2026-09-08 a las 11.23.14 p. m..png",
     "Servicios/Aws/Compute as a service/Computacion sin servidor",
     "Servicios/Aws/Compute as a service",
     "Conceptos/Sap",
-    "imagenes",
-    "Conceptos/Aws",
     "Sin título.canvas"
   ]
 }

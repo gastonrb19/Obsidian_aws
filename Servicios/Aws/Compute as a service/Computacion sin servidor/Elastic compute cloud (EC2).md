@@ -90,6 +90,9 @@ El servicio de Amazon EC2 intenta distribuir todas sus instancias en el hardware
 #### Datos de usuario
 Al realizar el lanzamiento de una instancia se puede ejecutar un script en este lanzamiento, con el fin de automatizar cierto proceso.
 ![[Captura de pantalla 2026-09-08 a las 11.12.57 p. m..png]]
+
+#### Información general EC2
+![[Captura de pantalla 2026-09-14 a las 8.35.28 a. m..png]]
 ### Sub área
 
 ### Servicios que utilizan este servicio
@@ -99,7 +102,36 @@ Al realizar el lanzamiento de una instancia se puede ejecutar un script en este 
 | [[Amazon relational database service (RDS)]] | Debajo de la instancia de base de datos hay una instancia de EC2. Sin embargo, esta instancia se administra a través de la consola de Amazon RDS en lugar de la consola de Amazon EC2. Al crear la instancia de base de datos, elige el tipo y el tamaño de la instancia. La clase de instancia de base de datos que elija influye en la capacidad de procesamiento y la memoria de |
 |                                              |                                                                                                                                                                                                                                                                                                                                                                                     |
 |                                              |                                                                                                                                                                                                                                                                                                                                                                                     |
+#### Conexión mediante SSH
+Para realizar esta conexión el grupo de seguridad debe permitir SSH, en lo idoneo mediante el puerto 22. Como regla de entrada.
+```
+$ssh ec2-user@54.210.111.41
+```
+El usuario "ec2-user" esta creado dentro de la VM automáticamente con el fin de establecer conexión.
+#### IAM ROLES
+Utilizando Iam y sus diferentes opciones de permisos podemos permitir que mediante SSH o conectandonos a la terminal podamos correr permisos que estén asociados a los permisos entregados por IAM.
+### Instances Purchasing Options
 
+| Nombre                    | Descripción                                                               | Info                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| On demand instances       | Short workload, predictable pricing, pay by second                        | Pay for what you use. Linux or windows billing per second, after the first minute. All others SO per hour. Has the highest cost but no upfront payment, no long term commitment. Recommended for short-term and un-interrupted workloads, where you can't predict how the app will behave.                                                                                                                                                                                                                                               |
+| Reserved ( 1 & 3 years )  | Long workloads.                                                           | Up 72% discount compared to On-demand. You reserve specific instance attribute (instance type, region, tenancy OS). Reservation period 1 year or 3 (3 have more discount x 3). Payment options - No upfront, partial (2x discount) all upfront (3x). Reserved instance's scope - Regional or Zonal (reserve capacity in an AZ). Recommended for steady-state usage apps (like databases). You can buy and sell in the reserved instance marketplace one of these.                                                                        |
+| Reserved (1 & 3 years )   | Convertible reserved instances - long workloards with flexibles instances | Convertible reserved instance is one type that can change certain characteristics, like instance type family, OS, scope and tenancy, also have discount aprox of 65%.                                                                                                                                                                                                                                                                                                                                                                    |
+| Saving plans 1  & 3 years | commitment to an amount of usage, long workload                           | - 72 % discount. Commit to a certain type of usage ($10/hour for 1 or 3 years). Usage beyond EC2 saving plans is billed at the on demand price. Locked to a specific instance family & AWS region (Example: M5 in us-east-1). Flexible across: Instance size (m5.large, m5.xlarge), OS, Tenancy (Host, Dedicated, Default)                                                                                                                                                                                                               |
+| Spot instances            | Short workloads, cheap, can lose instances (less reliable)                | Can get discount up to 90% compared to on-demand. Instances that you can "lose" at any point of time if your max price is less than the current spot price. The MOST cost-efficient instances in AWS. Useful for workload that are resilient to failure (Batchs, data analysis, image processing, any distributed workload, workloads with flexible start and end time). Not suitable for critical jobs or databases.                                                                                                                    |
+| Dedicated hosts           | Book an entire physical server, conrol instance placement                 | Physical servers EC2 instance with fully capacity to your use. Allow you adress compliance requirements and use your existing server-bound software licences (per-socket, core, pe-VM, software licenses). Purchasing options (on demand (per second active second), reserved(1 or 3 year, no upfront, partial, upfront, all upfront)). This type is the most expensive options. Useful for software that have complicated licensing model (BYOL - bring your own license) or companies that have strong regulatory or compliance needs. |
+| Dedicated Intances        | no other customers will share your hardware                               | Instance run on hardware that's dedicated to you. May share hardware with other instances in same account. No conrol over instance placement (can move hardware after Stop / Start)                                                                                                                                                                                                                                                                                                                                                      |
+| Capacity Reservations     | Reserve capacity in a specific AZ for any duration                        | Reserve On-Demands capacity in a specific AZ for any duration. You always have acces to instance when you need it. No time commitment (create/cancel anytime) no billing discount. Combine with regional reserved instances and savings plans to benefit from billing discounts. You're charged at on-demant rate wheter you run instances or not. Suitable for short-term, uninterrupted workloads that needs to be in a specific AZ.                                                                                                   |
+
+#### Network on EC2
+When a EC2 instance is created we have 2 different characteristics:
+- A public ip address to access
+- A private ip address to work with
+Connect to ec2 instance via ssh must be throught public ip because we're not in the same network. 
+Also important, the public ip address change once the instance is stop. 
+
+##### Elastic ip address
+This provide put an ip address associated with the ec2 instance and the ip won't change. Even when the instance is stopped. 
 ### Entidades asociadas
 - [[!Computacion sin servidor]]
 - [[Computación como servicio (compute as a service)]]

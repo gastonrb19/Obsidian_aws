@@ -32,7 +32,8 @@ Los volúmenes de EBS se organizan en dos categorías principales:
 #### Instantáneas de Amazon EBS
 Los errores ocurren. Un error es no hacer copias de seguridad de los datos y perderlos de forma inevitable. Para que esto no suceda, siempre haga una copia de seguridad de sus datos, incluso en AWS. Dado que los volúmenes de EBS se componen de los datos de su instancia de EC2, debe realizar copias de seguridad de estos volúmenes, lo que se conoce como instantáneas.
 Estas instantáneas de EBS son copias de seguridad progresivas que solo guardan los bloques del volumen que se modificaron después de la última instantánea. Por ejemplo, si en un volumen tiene 10 GB de datos y solo se modificaron 2 GB de datos desde la última instantánea, solo los 2 GB modificados se escriben en Amazon S3
-
+#### Overview 
+![[Captura de pantalla 2026-09-14 a las 8.45.04 a. m..png]]
 ### Costo asociado
 
 ### Sub área
