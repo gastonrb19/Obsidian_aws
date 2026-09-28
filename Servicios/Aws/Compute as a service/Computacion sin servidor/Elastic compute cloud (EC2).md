@@ -129,9 +129,49 @@ When a EC2 instance is created we have 2 different characteristics:
 - A private ip address to work with
 Connect to ec2 instance via ssh must be throught public ip because we're not in the same network. 
 Also important, the public ip address change once the instance is stop. 
-
 ##### Elastic ip address
 This provide put an ip address associated with the ec2 instance and the ip won't change. Even when the instance is stopped. 
+### Placement groups
+A way to secure the placement that is distributed our EC2 instances in AWS.
+It is ideal for precision time, direct access to high-precision time resources.
+**Placement groups strategies**:
+- Cluster: 
+	- Instances into a low-latency group in the same individual AZ ([[Zona de disponibilidad]]).
+	- Pros: Great network (10 gbps bandwith between instances with enhanced networking enabled - recommended)
+	- Cons: If the az fails, all instances fails at the same time. 
+	- Use case:
+		- Big data job that needs to complete fast
+		- Apps that needs extremely low latency and high network throughput
+	- Diagram associated (Visual explanation): [[PlacementGroups-Cluster.excalidraw]]
+- Spread:
+	- spread instances across underlying hardware (max 7 instances per group per AZ) (good for critical apps).
+	- Pros:
+		- Can span across Availability zones (AZ)
+		- Reduced risk is simultaneous failure
+		- EC2 instances are on different physical hardware
+	- Cons:
+		- Limited to 7 instance per AZ per placement group
+	- Use case:
+		- Application that needs to maximize high availability
+		- Critical apps where each instance must be isolated from failure from each other.
+	- Diagram associated (visual explanation): [[PlacementGroups-Spread.excalidraw]]
+- Partition:
+	- spreads instances across many different partitions (which rely on differents sets of racks) within an AZ. Scales to 100s of ECS instances per group (Hadoop, Cassandra, Kafka)
+	- Characteristics:
+		- Up to 7 partitions per AZ
+		- Can span across multiple AZs in the same region
+		- Up to 100s of EC2 instances
+		- The instances in a partition do not share racks with the instances in the other partitions
+		- A partition failure can affect many EC2 but won't affect other partitions
+		- Ec2 instances get access to the partition information as metadata
+	- Use cases: HDFS, HBase, Cassandra, Kafka
+	- Diagram associated (visual explanation): [[PlacementGroup-Partition.excalidraw]]
+- Precision time:
+	- Instances placed on hardware with direct access to high-precision time sources.
+	- Enhanced amazon time sync service (more accurate than standar NTP)
+	- PTP Hardware Clock + hardware packet timestamping (linux only)
+	- Use cases: distributed databases, financial timestamping, event ordering.
+	- Diagram associated (visual explanation): [[PlacementGroups-precisionTime.excalidraw]]
 ### Entidades asociadas
 - [[!Computacion sin servidor]]
 - [[Computación como servicio (compute as a service)]]
