@@ -172,6 +172,45 @@ It is ideal for precision time, direct access to high-precision time resources.
 	- PTP Hardware Clock + hardware packet timestamping (linux only)
 	- Use cases: distributed databases, financial timestamping, event ordering.
 	- Diagram associated (visual explanation): [[PlacementGroups-precisionTime.excalidraw]]
+#### Elastic Network Interfaces (ENI)
+
+#### EC2 Hibernate
+Allows to keep in RAM information about the state of the EC2 instance, so when starts again it will be must faster.
+This process save an root EBS Volume (Encrypted), because when the OS is shutdown the memory in RAM is not available.
+When is started again it will look for the EBS Volume encrypted to start more faster. 
+Some use cases:
+- Long-running process
+- Saving the ram state
+- Services that take time to initialiaze. 
+Supported instance families: c3, c4, c5, I3, M3, M4, R3, R4, T2, T3.
+Instance RAM: Must be less than 150GB.
+Instance Size: Not supported bare metal instances
+Root volume: must be EBS, encrypted, not instance store, and large.
+Available for on demand , Reserverd and spot instances.
+An instance can NOT be hibernated more than 60 days.
+**To enable EC2 Hibernate, the EC2  instance ROOT Volume must be an EBS volume and must be encrypted to ensure the security of the sensitive content.**
+#### AMI (Amazon machine image)
+- Ami are a customization of an EC2 instance
+	- you add you own software, config and operating system.
+	- Faster boot / configuration time because all your software is pre-packaged.
+- Ami are bulit for a specific region (can be copied across other instance)
+- You can launch ec2 instances from:
+	- A public AMI: Aws provided
+	- Your own AMI: you make and maintain them yourself
+	- an aws marketplace AMI: an AMI someone else made (usually in sell)
+##### Ami process (from an ec2 instance to other)
+- Start an ec2 instance and customize it
+- Stop the ec2 instance (for data integrity)
+- build an AMi from that ec2
+	- behind scenes this creates EBS snapshots
+- Launch instances from other AMIs
+#### EC2 Instance store
+- EBS volumes are network drives with good but "limited" performance.
+- If needs high performance hardware disk use EC2 instance storage.
+- Better i/o performance
+- **IT IS EPHEMERAL** the data will be deleted after being stopped.
+- Risk of data loss if hardware fails. Backups and replications are your responsability.
+- Ideal for cache.
 ### Entidades asociadas
 - [[!Computacion sin servidor]]
 - [[Computación como servicio (compute as a service)]]

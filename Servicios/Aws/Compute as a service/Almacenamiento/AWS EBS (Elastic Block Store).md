@@ -1,3 +1,34 @@
+### Description Udemy
+- An EBS volume is a network drive you can attach to your instances while they run. 
+- It allows your instance to persist data even after termination.
+- Bound to a specific availability zone. 
+- It's a network drive, not a physical. 
+- it uses the network to communicate the instance, which means there might be a bit of latency.
+- It can be detached to an ec2 instance and attach to another quickly. 
+- It is locked to a specific AZ, but with a snapshot could be moved.
+- Have a provisioned capacity (it is billed by the size in use)
+- An EC2 instances can have multiple EBS attached.
+- **The EBS have the option when it is created to delete on termination, of that way is controlling. It can be disabled via terminal also. **
+
+### EBS MultiAttach - io 1 / io 2 family
+Attach the same EBS to multiple EC2 instance in the same AZ.
+Each instance must change read and write in that EBS.
+Up to 16 EC2 instances at a time. 
+must be use a filesystem that is cluster-aware (not xfs, ext4, etc...)
+### EBS Snapshots
+- It can make a backup to restore your data across different AZ. (In certain point of time).
+- not necessary to detach volume to create one but is recommended.
+Type of EBS features:
+- EBS Snapshots archive: 
+	- 75% cheaper
+	- takes within 24 to 72 hrs to restoring the archive.
+- Recycle bin for snapshots
+	- Setup rules to retain certain deleted snapshots so you can recover them after accidental deletion.
+	- Specify retention (from 1 day to 1 year)
+- Fast snapshot restore (FSR)
+	- force full initialization of snapshots to have no latency (expensive $).
+#### Encrypt an EBS
+First has to create an EBS, after that we create an snapshot from that EBS with the option encrypted, after that we create a new EBS from that Snapshot. It will be create as an EBS encrypted.
 ### Descripción del servicio
 Almacenamiento en bloque, divide los datos en bloques de tamaño fijo y es ideal para SO y bases de datos que requieren un acceso de baja latencia y actualizaciones frecuentes, ya que permite manipular de forma directa los bloques individuales
 
@@ -12,7 +43,7 @@ Como el nombre lo implica, Amazon Elastic Block Store (Amazon EBS) es un almacen
     **Conexión 1 a 1:** la mayoría de los volúmenes de EBS solo se pueden conectar con un equipo a la vez. La mayoría de los volúmenes de EBS tienen una relación de uno a uno con las instancias de EC2, por lo que no pueden compartirse ni conectarse a varias instancias a la vez.
 > [!New]
 > **AWS anunció la característica de conexión múltiple de Amazon EBS que permite conectar volúmenes SSD (io1 o io2) de IOPS aprovisionadas a varias instancias de EC2 a la vez. Esta característica no está disponible para todos los tipos de instancias; además, todas las instancias deben estar en la misma zona de disponibilidad.**
-#### Tipo de volúmenes de EBS
+#### EBS Volume Types
 Los volúmenes de EBS se organizan en dos categorías principales:
 - **HDD**: Se utilizan para grandes cargas de trabajo de streaming que necesitan un alto rendimiento. 
 	- ![[Captura de pantalla 2026-09-10 a las 10.25.37 p. m..png]]

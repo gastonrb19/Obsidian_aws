@@ -1,3 +1,19 @@
+### Udemy description
+EFS is a network file system. It can be mounted to several EC2 instances.
+EFS Works with ec2 instances in multi AZ.
+Highly available, scalable, expensive (3x gp2), pay for use.
+ - Use cases
+	Content management, web serving, data sharing, wordpress.
+Use security group to control access to EFS
+Compatible with Linux AMI based (not with windows)
+Encryption at rest using KMS.
+Uses NFSv4.1 protocol
+POSIX file system (linux) that has a standart file api
+File system scale automatically, pay per use no capacity planning!.
+#### EFS Performance & storage classes available
+![[Captura de pantalla 2026-09-30 a las 18.24.07.png]]
+#### EFS Storage Classes available
+![[Captura de pantalla 2026-09-30 a las 18.27.22.png]]
 ### Descripción del servicio
 Amazon EFS organiza los datos en una estructura jerárquica de carpetas que es familiar para la mayoría de los usuarios, lo que brinda acceso compartido a los archivos en varias instancias o aplicaciones. Esto lo hace especialmente adecuado para los sistemas de administración de contenido, los servidores web y los entornos de desarrollo en los que el acceso tradicional a los sistemas de archivos es necesario.
 

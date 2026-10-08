@@ -8,16 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0d3a9b39c0239fc0",
+            "id": "9720ef6f2489a0bb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Back-Log_Provider.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Back-Log_Provider"
+            }
+          },
+          {
+            "id": "e95c3e5550b4bcbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Elastic load balancer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Elastic load balancer"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "contene",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,12 +92,12 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8da6b427315c6d63",
@@ -194,47 +211,47 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "0d3a9b39c0239fc0",
+  "active": "e95c3e5550b4bcbd",
   "lastOpenFiles": [
+    "Captura de pantalla 2026-10-07 a las 23.50.56.png",
+    "Captura de pantalla 2026-10-07 a las 23.40.55.png",
+    "Captura de pantalla 2026-10-07 a las 23.40.25.png",
+    "Captura de pantalla 2026-10-07 a las 23.40.11.png",
+    "Captura de pantalla 2026-10-07 a las 23.24.42.png",
+    "Elastic load balancer.md",
+    "Excalidraw/Back-Log_Provider.md",
+    "Captura de pantalla 2026-10-01 a las 23.43.08.png",
+    "Elastic Network Interfaces (ENI).md",
+    "Servicios/Aws/Compute as a service/Almacenamiento/AWS EBS (Elastic Block Store).md",
+    "EC2 Instance storage.md",
+    "Excalidraw/Drawing 2026-09-25 20.49.15.excalidraw.md",
+    "Servicios/Aws/Compute as a service/Almacenamiento/AWS EFS (Elastic File System).md",
+    "Captura de pantalla 2026-09-30 a las 18.27.22.png",
+    "Captura de pantalla 2026-09-30 a las 18.24.07.png",
+    "Captura de pantalla 2026-09-30 a las 18.23.48.png",
+    "Servicios/Aws/Compute as a service/Almacenamiento/!Almacenamiento.md",
+    "Servicios/Aws/Compute as a service/Computacion sin servidor/Elastic compute cloud (EC2).md",
+    "Servicios/Aws/Compute as a service/Network/Aws Elastic Load Balancing.md",
+    "Commands CLI.md",
+    "Servicios/Aws/Compute as a service/Computacion sin servidor/!Computacion sin servidor.md",
+    "Servicios/Aws/Compute as a service/Almacenamiento/Almacén de instancias EC2.md",
     "Excalidraw/PlacementGroup-Partition.excalidraw.md",
     "Excalidraw/PlacementGroups-Spread.excalidraw.md",
     "Excalidraw/PlacementGroups-precisionTime.excalidraw.md",
-    "Servicios/Aws/Compute as a service/Computacion sin servidor/Elastic compute cloud (EC2).md",
     "Excalidraw/PlacementGroups-Cluster.excalidraw.md",
-    "Excalidraw/Drawing 2026-09-25 20.49.15.excalidraw.md",
     "Excalidraw",
     "Servicios/Aws/Compute as a service/Gestión y permisos/Amazon IAM.md",
     "Aws Cloud Shell.md",
     "Servicios/Aws/Compute as a service/Computacion sin servidor/Amazon CloudFront Global Content Delivery Network (CDN).md",
     "Servicios/Aws/Compute as a service/Gestión y permisos/Aws CLI.md",
-    "Servicios/Aws/Compute as a service/Almacenamiento/AWS EBS (Elastic Block Store).md",
-    "Servicios/Aws/Compute as a service/Almacenamiento/!Almacenamiento.md",
     "Conceptos/Aws/Red AWS.md",
-    "Servicios/Aws/Compute as a service/Computacion sin servidor/!Computacion sin servidor.md",
     "Conceptos/Aws/Grupos de seguridad.md",
     "Conceptos/Aws/Regiones.md",
     "Conceptos/Aws/Modelo de responsabilidad compartida.md",
-    "Conceptos/Aws/Computación como servicio (compute as a service).md",
-    "Aws Billing and cost Management.md",
-    "Passwd.md",
-    "Servicios/Aws/Compute as a service/Gestión y permisos/Aws SDK.md",
-    "Servicios/Aws/Compute as a service/Gestión y permisos/!Gestión y permisos.md",
     "imagenes/Capturas/s3-service.png",
     "imagenes/Capturas/Pasted image 20260913235312.png",
-    "imagenes/Capturas/Captura de pantalla 2026-09-14 a las 8.52.45 a. m..png",
-    "imagenes/Capturas/Captura de pantalla 2026-09-14 a las 8.48.32 a. m..png",
-    "imagenes/Capturas/Captura de pantalla 2026-09-14 a las 8.45.04 a. m..png",
-    "imagenes/Capturas/Captura de pantalla 2026-09-14 a las 8.35.28 a. m..png",
-    "imagenes/Capturas/Captura de pantalla 2026-09-10 a las 9.47.55 p. m..png",
-    "imagenes/Capturas/Captura de pantalla 2026-09-10 a las 10.48.43 p. m..png",
-    "imagenes/Capturas/Captura de pantalla 2026-09-10 a las 10.25.37 p. m..png",
-    "imagenes/Capturas/Captura de pantalla 2026-09-10 a las 10.23.33 p. m..png",
     "imagenes/Capturas",
     "imagenes/Bosquejos",
-    "Servicios/Aws/Compute as a service/Ayuda/Aws Trusted Advisor.md",
-    "Servicios/Aws/Compute as a service/Network/Amazon Route 53 DNS Service.md",
-    "Servicios/Aws/Compute as a service/Network/Aws Elastic Load Balancing.md",
-    "Servicios/Aws/Compute as a service/Almacenamiento/Almacén de instancias EC2.md",
     "Servicios/Aws/Compute as a service/Ayuda",
     "Servicios/Aws/Compute as a service/Gestión y permisos",
     "Servicios/Aws/Compute as a service/Network",
