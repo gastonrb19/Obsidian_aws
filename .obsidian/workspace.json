@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9720ef6f2489a0bb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Back-Log_Provider.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Back-Log_Provider"
-            }
-          },
-          {
             "id": "e95c3e5550b4bcbd",
             "type": "leaf",
             "state": {
@@ -33,8 +21,7 @@
               "title": "Elastic load balancer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "load bal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8da6b427315c6d63",
@@ -187,8 +175,8 @@
             "state": {
               "type": "excalidraw-sidepanel",
               "state": {},
-              "icon": "excalidraw-icon",
-              "title": "Excalidraw Sidepanel"
+              "icon": "lucide-ghost",
+              "title": "excalidraw-sidepanel"
             }
           }
         ],
@@ -213,25 +201,27 @@
   },
   "active": "e95c3e5550b4bcbd",
   "lastOpenFiles": [
+    "Pasted image 20261008150222.png",
+    "Pasted image 20261008150048.png",
+    "Servicios/Aws/Compute as a service/Network/Aws Elastic Load Balancing.md",
+    "Servicios/Aws/Compute as a service/Computacion sin servidor/Elastic compute cloud (EC2).md",
+    "Elastic load balancer.md",
+    "Pasted image 20261008113430.png",
+    "Pasted image 20261008113158.png",
+    "Pasted image 20261008102420.png",
+    "Pasted image 20261008102327.png",
+    "Pasted image 20261008102313.png",
+    "Excalidraw/Back-Log_Provider.md",
     "Captura de pantalla 2026-10-07 a las 23.50.56.png",
     "Captura de pantalla 2026-10-07 a las 23.40.55.png",
     "Captura de pantalla 2026-10-07 a las 23.40.25.png",
     "Captura de pantalla 2026-10-07 a las 23.40.11.png",
-    "Captura de pantalla 2026-10-07 a las 23.24.42.png",
-    "Elastic load balancer.md",
-    "Excalidraw/Back-Log_Provider.md",
-    "Captura de pantalla 2026-10-01 a las 23.43.08.png",
     "Elastic Network Interfaces (ENI).md",
     "Servicios/Aws/Compute as a service/Almacenamiento/AWS EBS (Elastic Block Store).md",
     "EC2 Instance storage.md",
     "Excalidraw/Drawing 2026-09-25 20.49.15.excalidraw.md",
     "Servicios/Aws/Compute as a service/Almacenamiento/AWS EFS (Elastic File System).md",
-    "Captura de pantalla 2026-09-30 a las 18.27.22.png",
-    "Captura de pantalla 2026-09-30 a las 18.24.07.png",
-    "Captura de pantalla 2026-09-30 a las 18.23.48.png",
     "Servicios/Aws/Compute as a service/Almacenamiento/!Almacenamiento.md",
-    "Servicios/Aws/Compute as a service/Computacion sin servidor/Elastic compute cloud (EC2).md",
-    "Servicios/Aws/Compute as a service/Network/Aws Elastic Load Balancing.md",
     "Commands CLI.md",
     "Servicios/Aws/Compute as a service/Computacion sin servidor/!Computacion sin servidor.md",
     "Servicios/Aws/Compute as a service/Almacenamiento/Almacén de instancias EC2.md",
@@ -248,8 +238,6 @@
     "Conceptos/Aws/Grupos de seguridad.md",
     "Conceptos/Aws/Regiones.md",
     "Conceptos/Aws/Modelo de responsabilidad compartida.md",
-    "imagenes/Capturas/s3-service.png",
-    "imagenes/Capturas/Pasted image 20260913235312.png",
     "imagenes/Capturas",
     "imagenes/Bosquejos",
     "Servicios/Aws/Compute as a service/Ayuda",

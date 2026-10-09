@@ -45,11 +45,11 @@ Aws has 4 kinds of managed load balancers:
 	
 **Overall it is recommended to use the new generation of load balancer**
 - Some load balancers can be setup as internal (private ) or external (public) ELBs
-
+### Cross zone load balancing
+![[Pasted image 20261008102313.png]]
+![[Pasted image 20261008102327.png]]
 ### Security about load balancers
 ![[Captura de pantalla 2026-10-01 a las 23.43.08.png]]
-### Cross-Zone Load Balancing
-![[Captura de pantalla 2026-10-07 a las 23.24.42.png]]
 ### Application Load Balancer (v2)
 - App load balancer works in layer 7 (http)
 - Load balancing to multiple http apps across machines (target groups)
@@ -85,6 +85,44 @@ Target groups:
 
 ### Connection draining
 ![[Captura de pantalla 2026-10-07 a las 23.50.56.png]]
+### Auto scaling group
+In real-life, the load on your websites and application can change 
+- In the cloud, you can create and get rid of servers very quickly 
+-  The goal of an Auto Scaling Group (ASG) is to: 
+-  Scale out (add EC2 instances) to match an increased load 
+-  Scale in (remove EC2 instances) to match a decreased load 
+-  Ensure we have a minimum and a maximum number of EC2 instances running 
+-  Automatically register new instances to a load balancer 
+-  Re-create an EC2 instance in case a previous one is terminated (ex: if unhealthy) 
+-  ASG are free (you only pay for the underlying EC2 instances
+![[Pasted image 20261008102420.png]]
+#### Auto scaling group attributes
+![[Pasted image 20261008113158.png]]
+#### Cloudwatch and Auto scaling 
+![[Pasted image 20261008113430.png]]
+### Auto scaling groups - Scaling policies
+#### Dynamic scaling
+- Target Tracking Scaling
+	- Simple to set-up
+	- Example: i want the average ASG CPU to stay at around 40%
+- Simple / Step Scaling
+	- When a cloudwatch alarm is triggered (example cpu > 70%), then add 2 units
+	- When a cloudwatch alarm is triggered (example cpu < 30%), then add 1.
+- Scheduled scaling
+	- Anticipate a scaling based on known usage patterns
+	- Example: Increase the min capacity to 10 at 5 pm on fridays.
+- Predictive scaling: Continuously forecast load and schedule scaling ahead.
+	- ![[Pasted image 20261008150048.png]]
+##### Good metrics to scale on
+- Cpu Utilization : Average CPU utilization across your instances
+- RequestCountPerTarget: To make sure th enumbers of request per EC2 instances is stable
+- Average networn in / out (if you're app is network bound)
+- Any custom metric (that you push using CloudWatch)
+![[Pasted image 20261008150222.png]]
+##### Scaling cooldowns
+- After a scaling activity happens, you are in the cooldown period (default 300 seconds)
+- During the cooldown period, the asg will not launch or terminate additional instances (to allow for metric to stabilize)
+- ***advice* : Use a ready-to-use AMI to reduce configuration time in order to be serving request fasters and reduce the cooldown period.
 ### Costo asociado
 
 ### Sub área
